@@ -60,7 +60,7 @@ Information of benefit positive(+) or negative(-) impact criteria should be prov
 ## Output
 
 
-Model | Correlation | R<sup>2</sup> | RMSE | Accuracy | Topsis-Score | Rank
+Model | Correlation | R<sup>2</sup> | RMSE | Accuracy | Topsis_score | Rank
 ------------ | ------------- | ------------ | ------------- | ------------ | ------------- | ------------- 
 M1 |	0.79 | 0.62	| 1.25 | 60.89 | 0.7722 | 2
 M2 |  0.66 | 0.44	| 2.89 | 63.07 | 0.2255 | 5
