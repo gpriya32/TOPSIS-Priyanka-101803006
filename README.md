@@ -14,34 +14,20 @@ and greatest distance from the negative-ideal solution.
 
 <br>
 
-## How to use this package:
-
-TOPSIS-PriyankaGupta-101803006  can be run as in the following example:
-
+## How to install this package:
+```
+>> pip install TOPSIS-Priyanka-101803006
+```
 
 
 ### In Command Prompt
 ```
 >> topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
 ```
-<br>
 
-### In Python IDLE:
-```
->>> import pandas as pd
->>> from src.topsis import topsis
->>> dataset = pd.read_csv('data.csv')
->>> data=dataset.iloc[ :,1:].values.astype(float)
->>> weights = [1,1,1,1]
->>> impacts = ["+" , "+" , "-" , "+" ]
->>> topsis(data,weights,impacts)
-```
+## Input file (data.csv)
 
-<br>
-
-## Sample dataset
-
-The decision matrix (`a`) should be constructed with each row representing a Model alternative, and each column representing a criterion like Accuracy, R<sup>2</sup>, Root Mean Squared Error, Correlation, and many more.
+The decision matrix should be constructed with each row representing a Model alternative, and each column representing a criterion like Accuracy, R<sup>2</sup>, Root Mean Squared Error, Correlation, and many more.
 
 Model | Correlation | R<sup>2</sup> | RMSE | Accuracy
 ------------ | ------------- | ------------ | ------------- | ------------
@@ -57,7 +43,7 @@ Information of benefit positive(+) or negative(-) impact criteria should be prov
 
 <br>
 
-## Output
+## Output file (result.csv)
 
 
 Model | Correlation | R<sup>2</sup> | RMSE | Accuracy | Topsis_score | Rank
@@ -70,5 +56,5 @@ M5 |	0.75 | 0.56	| 1.3	 | 80.39 | 0.8113 | 1
 
 
 <br>
-The rankings are displayed in the form of a table using a package 'tabulate', with the 1st rank offering us the best decision, and last rank offering the worst decision making, according to TOPSIS method.
+The output file contains columns of input file along with two additional columns having **Topsis_score** and **Rank** 
 

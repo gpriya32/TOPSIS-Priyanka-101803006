@@ -13,11 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     author="Priyanka Gupta",
     author_email="priyaagupta55@gmail.com",
-<<<<<<< HEAD
-    url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006',  
-=======
     url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/',
->>>>>>> a65d221b53c502cf6fedfbc434289ca7f9e71d79
+    download_url ='https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/archive/1.0.0.tar.gz',
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
