@@ -1,4 +1,4 @@
-# TOPSIS-Python
+# TOPSIS
 
 
 Submitted By: **Priyanka 101803006**
@@ -16,7 +16,7 @@ and greatest distance from the negative-ideal solution.
 
 ## How to use this package:
 
-TOPSIS-Priyanka-101803006  can be run as in the following example:
+TOPSIS-PriyankaGupta-101803006  can be run as in the following example:
 
 
 
@@ -59,8 +59,8 @@ Information of benefit positive(+) or negative(-) impact criteria should be prov
 
 ## Output
 
-```
-Model | Correlation | R<sup>2</sup> | RMSE | Accuracy | Topsis-Score | Rank
+
+Model | Correlation | R<sup>2</sup> | RMSE | Accuracy | Topsis_score | Rank
 ------------ | ------------- | ------------ | ------------- | ------------ | ------------- | ------------- 
 M1 |	0.79 | 0.62	| 1.25 | 60.89 | 0.7722 | 2
 M2 |  0.66 | 0.44	| 2.89 | 63.07 | 0.2255 | 5
@@ -68,7 +68,7 @@ M3 |	0.56 | 0.31	| 1.57 | 62.87 | 0.4388 | 4
 M4 |	0.82 | 0.67	| 2.68 | 70.19 | 0.5238 | 3
 M5 |	0.75 | 0.56	| 1.3	 | 80.39 | 0.8113 | 1
 
-```
+
 <br>
 The rankings are displayed in the form of a table using a package 'tabulate', with the 1st rank offering us the best decision, and last rank offering the worst decision making, according to TOPSIS method.
 

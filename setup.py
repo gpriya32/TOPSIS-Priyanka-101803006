@@ -6,13 +6,15 @@ def readme():
     return README
 
 setup(
-    name="TOPSIS-Priyanka-101803006",
+    name="TOPSIS-PriyankaGupta-101803006",
     version="1.0.0",
     description="A Python package implementing TOPSIS technique.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     author="Priyanka Gupta",
-    author_email="manii.sandhuu@gmail.com",
+    author_email="priyaagupta55@gmail.com",
+    url = 'https://github.com/gpriya32/TOPSIS-Priyanka-101803006/',
+    download_url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/archive/1.0.0.tar.gz',
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
