@@ -16,7 +16,7 @@ and greatest distance from the negative-ideal solution.
 
 ## How to use this package:
 
-TOPSIS-Priyanka-101803006  can be run as in the following example:
+TOPSIS-PriyankaGupta-101803006  can be run as in the following example:
 
 
 
