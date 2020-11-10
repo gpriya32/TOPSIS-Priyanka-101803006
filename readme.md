@@ -1,4 +1,4 @@
-# TOPSIS-Project
+# TOPSIS
 
 
 Submitted By: **Priyanka 101803006**
