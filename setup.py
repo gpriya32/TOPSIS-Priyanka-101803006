@@ -6,7 +6,7 @@ def readme():
     return README
 
 setup(
-    name="TOPSIS-Priyanka-101803006",
+    name="TOPSIS-PriyankaGupta-101803006",
     version="1.0.0",
     description="A Python package implementing TOPSIS technique.",
     long_description=readme(),
