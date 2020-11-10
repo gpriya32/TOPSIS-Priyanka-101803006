@@ -1,7 +1,7 @@
 from setuptools import setup
 
 def readme():
-    with open('README.md') as file:
+    with open('readme.md') as file:
         README = file.read()
     return README
 
@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Priyanka Gupta",
     author_email="priyaagupta55@gmail.com",
-    url = 'https://github.com/gpriya32/TOPSIS-Priyanka-101803006/',
+    url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/',
     download_url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/archive/1.0.0.tar.gz',
     license="MIT",
     classifiers=[
