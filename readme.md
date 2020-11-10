@@ -1,4 +1,4 @@
-# TOPSIS-Python
+# TOPSIS-Project
 
 
 Submitted By: **Priyanka 101803006**
