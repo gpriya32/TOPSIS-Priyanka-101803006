@@ -1,20 +1,19 @@
 from setuptools import setup
 
 def readme():
-    with open('readme.md') as file:
+    with open('README.md') as file:
         README = file.read()
     return README
 
 setup(
-    name="TOPSIS-PriyankaGupta-101803006",
+    name="TOPSIS_Priyanka-101803006",
     version="1.0.0",
     description="A Python package implementing TOPSIS technique.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     author="Priyanka Gupta",
     author_email="priyaagupta55@gmail.com",
-    url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/',
-    download_url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/archive/1.0.0.tar.gz',
+    url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006',  
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -30,7 +29,6 @@ setup(
                       'tabulate',
                       'numpy',
                       'pandas',
-                      'math'
      ],
      entry_points={
         "console_scripts": [

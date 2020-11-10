@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
-Name: TOPSIS-PriyankaGupta-101803006
+Name: TOPSIS-Priyanka-101803006
 Version: 1.0.0
 Summary: A Python package implementing TOPSIS technique.
-Home-page: https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/
+Home-page: https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006
 Author: Priyanka Gupta
 Author-email: priyaagupta55@gmail.com
 License: MIT
-Download-URL: https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/archive/1.0.0.tar.gz
 Description: # TOPSIS
         
         
@@ -31,7 +30,7 @@ Description: # TOPSIS
         
         ### In Command Prompt
         ```
-        >> topsis data.csv "1,1,1,1" "+,+,-,+"
+        >> topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
         ```
         <br>
         

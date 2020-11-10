@@ -22,7 +22,7 @@ TOPSIS-PriyankaGupta-101803006  can be run as in the following example:
 
 ### In Command Prompt
 ```
->> topsis data.csv "1,1,1,1" "+,+,-,+"
+>> topsis data.csv "1,1,1,1" "+,+,-,+" result.csv
 ```
 <br>
 
