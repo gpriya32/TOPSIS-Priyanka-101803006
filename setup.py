@@ -14,7 +14,6 @@ setup(
     author="Priyanka Gupta",
     author_email="priyaagupta55@gmail.com",
     url = 'https://github.com/gpriya32/TOPSIS-Priyanka-101803006/',
-    download_url = 'https://github.com/gpriya32/TOPSIS-PriyankaGupta-101803006/archive/1.0.0.tar.gz',
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
