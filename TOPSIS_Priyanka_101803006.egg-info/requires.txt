@@ -1,0 +1,5 @@
+scipy
+tabulate
+numpy
+pandas
+math
